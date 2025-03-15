@@ -1,22 +1,14 @@
-/* Remove as margens e o preenchimento padrão da página */
 body {
   margin: 0;
   padding: 0;
-
-  /* Usa flexbox para centralizar o conteúdo */
   display: flex;
-  align-items: center; /* Alinha os itens verticalmente ao centro */
-  justify-content: center; /* Alinha os itens horizontalmente ao centro */
-
-  /* Define a altura total da tela para garantir que o jogo ocupe todo o espaço disponível */
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  background: url("./assets/6598236.jpg");
 }
 
-/* Estiliza o elemento <canvas> onde o jogo será desenhado */
 canvas {
-  /* Adiciona uma borda preta ao redor do jogo */
   border: 2px solid #000;
-
-  /* Define uma imagem de fundo para o jogo */
-  background: url("./assets/background.png"); /* Caminho da imagem de fundo */
+  background: url("./assets/background.png");
 }
